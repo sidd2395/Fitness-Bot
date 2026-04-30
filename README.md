@@ -1,10 +1,12 @@
 # Fitness Bot — Personal AI Coaching via Telegram
 
-A personal fitness tracking bot built on Telegram and powered by Claude (Haiku). Logs daily check-ins to Google Sheets and responds with coaching from Coach Reyes, an AI persona calibrated to give direct, data-driven feedback rather than generic motivation.
+A personal fitness tracking bot I built and use daily. It logs morning and evening check-ins to Google Sheets and responds with coaching from Coach Reyes, an AI persona I designed to give direct, data-driven feedback rather than generic motivation.
 
-Built for personal use and as a portfolio piece demonstrating prompt architecture, automation, and AI product thinking.
+Built to solve my own problem: existing fitness apps track data but don't tell you what to do with it. Coach Reyes reads your last 4 days of history and gives you one clear instruction per check-in, calibrated to your actual numbers.
 
-**Live and in daily use.**
+This project demonstrates: prompt architecture and persona design, AI product decisions (model selection, output formatting, context window management), Python backend development, and automation thinking.
+
+**Live and in personal daily use since April 2026.**
 
 ---
 
@@ -37,7 +39,7 @@ The bot is used daily. Bullet points and headers feel clinical and get ignored. 
 Zero setup cost, instant visibility, easy to inspect and manually correct if something goes wrong. For a personal tool with one user, a database adds complexity without adding value.
 
 **Why a streak counter?**
-Streaks are a psychological lever for momentum-driven users. Knowing the number creates a small daily commitment device. The streak resets on a missed day intentionally, consecutive consistency is the metric that matters.
+Streaks are a psychological lever for momentum-driven users. Knowing the number creates a small daily commitment device. The streak resets on a missed day intentionally — consecutive consistency is the metric that matters.
 
 ---
 
